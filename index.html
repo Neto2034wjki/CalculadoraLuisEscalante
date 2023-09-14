@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Calculadora de Suma</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+      </head>
+
+<body style="background-color: beige;">
+<div class="mt-5">
+    <h1 class="text-center">Calculadora de Suma</h1>
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-6">
+            <div class="mb-3">
+                <label for="num1" class="form-label">Número 1:</label><br>
+                <input type="number" class="form-control" id="num1" placeholder=" ">  
+            </div>
+            <div class="mb-3">
+                <label for="num2" class="form-label">Numero 2:</label>
+
+                <input type="number" class="form-control" id="num2" placeholder=" ">  
+            </div>
+            <button id="CalcularBtn" class="btn btn-primary" style="color: white; background-color: #0077b6; border: #0077b6;">Sumar</button>
+            <button id="ClrBtn" class="btn btn-primary" style="color: white; background-color: #38b000; border: #38b000;">Restar</button>
+            <button id="BtnCalcular" class="btn btn-primary" style="color: white; background-color: #9d4edd; border:#9d4edd">Multiplicar</button>
+            <button id="calcularBtn" class="btn btn-primary" style="color: white; background-color: #d90429; border:#d90429">Dividir</button>
+            
+            <div class="alert alert-succes mostrar">
+                <h4>Resultado:</h4>
+                <p id="resultado"></p>
+            </div>
+        </div>    
+    </div>   
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
